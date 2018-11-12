@@ -958,6 +958,7 @@ public class BankAccountV7 {
 			else 
 			{ 
 
+				
 				bank.getAcct(index).closeAcct(); //Closing account
 				bank.deleteAcct(index);
 				outFile.println("Transaction Requested: Delete Account");
